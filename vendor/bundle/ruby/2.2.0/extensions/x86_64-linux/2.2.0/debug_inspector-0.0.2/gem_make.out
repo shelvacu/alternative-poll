@@ -1,0 +1,11 @@
+/usr/bin/ruby -r ./siteconf20150905-31291-kdda2z.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.so ./.gem.20150905-31291-437x6m

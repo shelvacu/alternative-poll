@@ -1,0 +1,12 @@
+/usr/bin/ruby -r ./siteconf20150905-31291-tc0d3.rb extconf.rb
+
+make "DESTDIR=" clean
+make: *** No rule to make target 'clean'.  Stop.
+
+make "DESTDIR="
+echo "Nada."
+Nada.
+
+make "DESTDIR=" install
+echo "Nada."
+Nada.
